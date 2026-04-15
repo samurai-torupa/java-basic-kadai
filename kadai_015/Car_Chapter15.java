@@ -3,10 +3,10 @@ package kadai_015;
 public class Car_Chapter15 {
 
 	
-	private static int gear = 1;
-	private static int speed =10;
+	private  int gear = 1;
+	private  int speed =10;
 	
-	public static void changeGear(int afterGear) {
+	public void changeGear(int afterGear) {
 		speed = switch(afterGear) {
 		
 			case 1 -> 10;
@@ -22,7 +22,7 @@ public class Car_Chapter15 {
 		
 	}
 	
-	public static void run() {
+	public void run() {
 		System.out.println("速度は時速"+speed+"kmです");
 	}
 
